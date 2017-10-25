@@ -2,4 +2,4 @@
 Visit blocked websites by bypassing "lightspeed user agent" commonly installed on school networks.
 
 # Demo
-[a link](http://schoolsucks.surge.sh)
+<a href="http://schoolsucks.surge.sh" target="_blank">schoolsucks.surge.sh</a>
