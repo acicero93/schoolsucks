@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.website__form {
+	position: fixed;
+	height: 25px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background: white;
+	box-shadow: -3px -6px 5px 5px black;
+}
+
+.website__form .website_form_text {
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+.website__form .website_form_button {
+	height: 100%;
+	border-width: 0;
+	border-radius: 3px;
+	background-color: #2e85cc;
+	color: #ecf0f1;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+
+.website_container {
+	height: 100%;
+	width: 100%;
+	margin-top: 45px;
+}
