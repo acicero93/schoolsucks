@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PCSD SuCks!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<!-- User Form -->
+	<form class="website__form">
+		<input type="text" class="website_form_text" name="url" placeholder="www.reddit.com">
+		<button type="submit" class="website_form_button">Search</button>
+	</form>
+
+	<!-- Load Website Here -->
+	<iframe id="websiteContainer" class="website_container" src=""></iframe>
+
+	<script src="app.js"></script>
+	<script type="text/javascript">
+		var iframe = document.getElementById('websiteContainer');
+		var url = getQueryParam('url') || 'http://www.reddit.com';
+		url = url.replace('http://', '');
+		url = url.replace('www.', '');
+		url = 'http://www.' + url;
+
+		loadURL(url);
+	</script>
+</body>
+</html>
